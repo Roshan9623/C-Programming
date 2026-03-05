@@ -1,11 +1,12 @@
-#include <stdio.h>
-    int main(){
+#include<stdio.h>
+int main()
+{
 
-        char ch;
-        printf("enter a ch : ");
-        scanf("%c",& ch);
+    char ch;
+    printf("enter charcter : ");
+    scanf("%c", &ch);
 
-        printf("%d",ch);
+    printf("%d", ch);
 
-        return 0;
-    }
+    return 0;
+}
