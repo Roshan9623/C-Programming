@@ -1,14 +1,21 @@
 #include <stdio.h>
-    int main(){
+    int main (){
 
         int n;
-        printf("enter a number : ");
-        scanf("%d",& n);
+        printf("enter row : ");
+        scanf("%d", & n);
 
-        for(int i=1;i<=n;i++);
-            printf("*\n");
+        int m;
+        printf("enter column : ");
+        scanf("%d",& m);
 
-
-
-        return 0;
-    }
+        for(int i=1;i<=n;i++){
+            for(int i=1;i<=m;i++){
+               printf("*"); 
+            }
+            printf("\n");
+        }
+        
+    
+    return 0;
+}
