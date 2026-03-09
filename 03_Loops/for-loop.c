@@ -1,15 +1,13 @@
-#include<stdio.h>
+# include <stdio.h>
     int main(){
 
         int n;
-        printf("enter a number: ");
+        printf("enter a number : ");
         scanf("%d",& n);
 
-        for( int i=1; i<=n;i++){
-
-            printf("\n hello world");
+        for(int i=1;i<=n;i++){
+            printf("hello world\n");
         }
-
 
         return 0;
     }

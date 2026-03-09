@@ -1,13 +1,16 @@
-#include <stdio.h>
+# include <stdio.h>
     int main(){
 
-        int i = 1;
+        int n;
+        printf("enter a number : ");
+        scanf("%d",& n);
 
-        while(i<=10){
-            printf(" hello pw \n ");
+        int i=1;
+        while(i<=n){
+            printf("hello vs\n");
             i++;
-
         }
+
 
         return 0;
     }
