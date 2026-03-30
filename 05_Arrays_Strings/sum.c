@@ -10,6 +10,6 @@
             }
             printf(" sum is : %d",sum);
 
-/
+
         return 0;
     }
